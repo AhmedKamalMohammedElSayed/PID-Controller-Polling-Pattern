@@ -1,0 +1,6 @@
+poll global:[pollCounter,pollTimeCounter] call:[DisplayTemperature,PID_Controller,SetPWMDutyCycle,TC72_CheckSensorState,TC72_ReadTemperature,updatePollCounter] noreturn:[SetPWMDutyCycle]
+updatePollCounter global:[pollCounter]
+poller_Init call:[Timer_vidInitTimer1,Timer_vidSetCallBackTimer1] noreturn:[Timer_vidSetCallBackTimer1]
+Poller__StartPolling call:[Timer_vidStartTimer1] noreturn:[Timer_vidStartTimer1]
+Poller__StopPolling call:[Timer_vidStopTimer1] noreturn:[Timer_vidStopTimer1]
+poller_SetPollTime global:[pollTimeCounter]

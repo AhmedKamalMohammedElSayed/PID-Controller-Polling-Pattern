@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.15.0"/>
+    <errors>
+        <error id="misra-c2012-8.7" severity="style" msg="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" verbose="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" sinceDate="04/12/2024">
+            <location file="PID\POLLER\PID.c" line="8"/>
+        </error>
+        <error id="misra-c2012-8.7" severity="style" msg="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" verbose="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" sinceDate="04/12/2024">
+            <location file="PID\POLLER\poller.c" line="37"/>
+        </error>
+        <error id="misra-c2012-8.7" severity="style" msg="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" verbose="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" sinceDate="04/12/2024">
+            <location file="PID\POLLER\poller.c" line="42"/>
+        </error>
+        <error id="misra-c2012-8.7" severity="style" msg="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" verbose="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" sinceDate="04/12/2024">
+            <location file="PID\POLLER\poller.c" line="46"/>
+        </error>
+        <error id="misra-c2012-8.7" severity="style" msg="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" verbose="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" sinceDate="04/12/2024">
+            <location file="PID\POLLER\poller.c" line="51"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &amp;#039;SPSR&amp;#039; is unknown" verbose="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &amp;#039;SPSR&amp;#039; is unknown" file0="PID/SPI/Spi.c" sinceDate="04/12/2024">
+            <location file="PID\SPI\Spi.c" line="14"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &amp;#039;SPIF&amp;#039; is unknown" verbose="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &amp;#039;SPIF&amp;#039; is unknown" file0="PID/SPI/Spi.c" sinceDate="04/12/2024">
+            <location file="PID\SPI\Spi.c" line="14"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &amp;#039;SPSR&amp;#039; is unknown" verbose="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &amp;#039;SPSR&amp;#039; is unknown" file0="PID/SPI/Spi.c" sinceDate="04/12/2024">
+            <location file="PID\SPI\Spi.c" line="18"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &amp;#039;SPIF&amp;#039; is unknown" verbose="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &amp;#039;SPIF&amp;#039; is unknown" file0="PID/SPI/Spi.c" sinceDate="04/12/2024">
+            <location file="PID\SPI\Spi.c" line="18"/>
+        </error>
+        <error id="misra-c2012-8.7" severity="style" msg="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" verbose="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" sinceDate="04/12/2024">
+            <location file="PID\SPI\Spi.c" line="7"/>
+        </error>
+        <error id="misra-c2012-8.7" severity="style" msg="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" verbose="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" sinceDate="04/12/2024">
+            <location file="PID\SPI\Spi.c" line="12"/>
+        </error>
+        <error id="misra-c2012-8.7" severity="style" msg="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" verbose="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" sinceDate="04/12/2024">
+            <location file="PID\SPI\Spi.c" line="17"/>
+        </error>
+        <error id="misra-c2012-8.7" severity="style" msg="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" verbose="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" sinceDate="04/12/2024">
+            <location file="PID\TC72\tc72.c" line="8"/>
+        </error>
+        <error id="misra-c2012-8.7" severity="style" msg="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" verbose="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" sinceDate="04/12/2024">
+            <location file="PID\TC72\tc72.c" line="37"/>
+        </error>
+        <error id="misra-c2012-2.7" severity="style" msg="A function should not contain unused parameters&#9;" verbose="A function should not contain unused parameters&#9;" file0="PID/TIMER/timer.c" sinceDate="04/12/2024">
+            <location file="PID\TIMER\timer.c" line="49"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Function types shall be in prototype form with named parameters&#9;" verbose="Function types shall be in prototype form with named parameters&#9;" file0="PID/TIMER/timer.c" sinceDate="04/12/2024">
+            <location file="PID\TIMER\timer.c" line="49"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="A compatible declaration shall be visible when an object or function with external linkage is defined&#9;" verbose="A compatible declaration shall be visible when an object or function with external linkage is defined&#9;" file0="PID/TIMER/timer.c" sinceDate="04/12/2024">
+            <location file="PID\TIMER\timer.c" line="49"/>
+        </error>
+        <error id="misra-c2012-8.7" severity="style" msg="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" verbose="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" sinceDate="04/12/2024">
+            <location file="PID\TIMER\timer.c" line="16"/>
+        </error>
+        <error id="misra-c2012-8.7" severity="style" msg="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" verbose="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" sinceDate="04/12/2024">
+            <location file="PID\TIMER\timer.c" line="24"/>
+        </error>
+        <error id="misra-c2012-8.7" severity="style" msg="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" verbose="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" sinceDate="04/12/2024">
+            <location file="PID\TIMER\timer.c" line="38"/>
+        </error>
+        <error id="misra-c2012-8.7" severity="style" msg="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" verbose="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" sinceDate="04/12/2024">
+            <location file="PID\TIMER\timer.c" line="42"/>
+        </error>
+        <error id="misra-c2012-8.7" severity="style" msg="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" verbose="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" sinceDate="04/12/2024">
+            <location file="PID\TIMER\timer.c" line="58"/>
+        </error>
+        <error id="misra-c2012-8.7" severity="style" msg="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" verbose="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" sinceDate="04/12/2024">
+            <location file="PID\TIMER\timer.c" line="66"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &amp;#039;UCSRA&amp;#039; is unknown" verbose="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &amp;#039;UCSRA&amp;#039; is unknown" file0="PID/UART/uart.c" sinceDate="04/12/2024">
+            <location file="PID\UART\uart.c" line="18"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &amp;#039;UDRE&amp;#039; is unknown" verbose="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &amp;#039;UDRE&amp;#039; is unknown" file0="PID/UART/uart.c" sinceDate="04/12/2024">
+            <location file="PID\UART\uart.c" line="18"/>
+        </error>
+        <error id="misra-c2012-21.6" severity="style" msg="The Standard Library input/output functions shall not be used&#9;" verbose="The Standard Library input/output functions shall not be used&#9;" file0="PID/UART/uart.c" sinceDate="04/12/2024">
+            <location file="PID\UART\uart.c" line="2"/>
+        </error>
+        <error id="misra-c2012-8.7" severity="style" msg="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" verbose="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" sinceDate="04/12/2024">
+            <location file="PID\UART\uart.c" line="9"/>
+        </error>
+        <error id="misra-c2012-8.7" severity="style" msg="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" verbose="Functions and objects should not be defined with external linkage if they are referenced in only one translation unit&#9;" sinceDate="04/12/2024">
+            <location file="PID\UART\uart.c" line="29"/>
+        </error>
+    </errors>
+</results>

@@ -1,0 +1,7 @@
+Timer_vidInitTimer1 call:[sei] noreturn:[sei]
+Timer_vidStartTimer1
+Timer_vidStopTimer1
+Timer_vidSetCallBackTimer1 global:[Timer1Callback]
+ISR global:[Timer1Callback]
+PWM_Init
+SetPWMDutyCycle

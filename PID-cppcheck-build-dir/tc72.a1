@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="13416790164812012633">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;Std_Types.h&quot; not found." verbose="Include file: &quot;Std_Types.h&quot; not found.">
+            <location file="D:\AVR\PID\PID\TC72\tc72.h" line="3" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;spi.h&quot; not found." verbose="Include file: &quot;spi.h&quot; not found.">
+            <location file="D:\AVR\PID\PID\TC72\tc72.c" line="2" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;avr/delay.h&quot; not found." verbose="Include file: &quot;avr/delay.h&quot; not found.">
+            <location file="D:\AVR\PID\PID\TC72\tc72.c" line="3" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;avr/io.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;avr/io.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="D:\AVR\PID\PID\TC72\tc72.c" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;avr/interrupt.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;avr/interrupt.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="D:\AVR\PID\PID\TC72\tc72.c" line="5" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;util/delay.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;util/delay.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="D:\AVR\PID\PID\TC72\tc72.c" line="6" column="0"/>
+        </error>
+        <error id="normalCheckLevelConditionExpressions" severity="debug" msg="Analysis of condition expressions is disabled. Use --check-level=exhaustive to enable it." verbose="Analysis of condition expressions is disabled. Use --check-level=exhaustive to enable it." file0="D:/AVR/PID/PID/TC72/tc72.c">
+            <location file="D:\AVR\PID\PID\TC72\tc72.c" line="0" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="TC72_InitSensor" lineNumber="8"/>
+    <functiondecl functionName="TC72_ReadTemperature" lineNumber="16"/>
+    <functiondecl functionName="TC72_CheckSensorState" lineNumber="37"/>
+    <functioncall functionName="SPI_MasterReceive"/>
+    <functioncall functionName="SPI_MasterTransmit"/>
+    <functioncall functionName="TC72_ReadTemperature"/>
+    <functioncall functionName="_delay_ms"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

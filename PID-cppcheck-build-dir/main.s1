@@ -1,0 +1,1 @@
+main call:[PWM_Init,Poller__StartPolling,SPI_MasterInit,TC72_InitSensor,USART_Init,poller_Init,poller_SetPollTime]

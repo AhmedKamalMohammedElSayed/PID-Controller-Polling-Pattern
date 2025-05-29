@@ -1,0 +1,3 @@
+TC72_InitSensor call:[SPI_MasterTransmit,_delay_ms] noreturn:[_delay_ms]
+TC72_ReadTemperature call:[SPI_MasterReceive,SPI_MasterTransmit,_delay_ms,return] noreturn:[return]
+TC72_CheckSensorState call:[TC72_ReadTemperature]

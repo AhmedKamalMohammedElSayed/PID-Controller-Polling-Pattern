@@ -1,0 +1,4 @@
+{"summary": "MisraMacro", "data": [{"name": "F_CPU", "used": false, "file": "D:/AVR/PID/PID/main.c", "line": 9, "column": 0}]}
+{"summary": "MisraExternalIdentifiers", "data": [{"name": "main", "file": "D:/AVR/PID/PID/main.c", "line": 12, "column": 5, "decl": false}]}
+{"summary": "MisraInternalIdentifiers", "data": []}
+{"summary": "MisraLocalIdentifiers", "data": []}

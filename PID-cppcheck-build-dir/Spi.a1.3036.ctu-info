@@ -1,0 +1,5 @@
+{"summary": "MisraMacro", "data": [{"name": "SPI_H", "used": true, "file": "D:/AVR/PID/PID/SPI/Spi.h", "line": 2, "column": 0}]}
+{"summary": "MisraExternalIdentifiers", "data": [{"name": "SPI_MasterInit", "file": "D:/AVR/PID/PID/SPI/Spi.c", "line": 7, "column": 6, "decl": false}, {"name": "SPI_MasterTransmit", "file": "D:/AVR/PID/PID/SPI/Spi.c", "line": 12, "column": 6, "decl": false}, {"name": "SPI_MasterReceive", "file": "D:/AVR/PID/PID/SPI/Spi.c", "line": 17, "column": 6, "decl": false}]}
+{"summary": "MisraInternalIdentifiers", "data": []}
+{"summary": "MisraLocalIdentifiers", "data": [{"name": "data", "file": "D:/AVR/PID/PID/SPI/Spi.c", "line": 12, "column": 30}]}
+{"summary": "MisraUsage", "data": [{"name": "SPI_MasterInit", "file": "D:/AVR/PID/PID/SPI/Spi.c"}, {"name": "SPI_MasterTransmit", "file": "D:/AVR/PID/PID/SPI/Spi.c"}, {"name": "SPI_MasterReceive", "file": "D:/AVR/PID/PID/SPI/Spi.c"}]}

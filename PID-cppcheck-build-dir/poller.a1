@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="6798732059920136210">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;Std_Types.h&quot; not found." verbose="Include file: &quot;Std_Types.h&quot; not found.">
+            <location file="D:\AVR\PID\PID\POLLER\poller.h" line="4" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;tc72.h&quot; not found." verbose="Include file: &quot;tc72.h&quot; not found.">
+            <location file="D:\AVR\PID\PID\POLLER\poller.c" line="2" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;Std_Types.h&quot; not found." verbose="Include file: &quot;Std_Types.h&quot; not found.">
+            <location file="D:\AVR\PID\PID\POLLER\PID.h" line="3" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;uart.h&quot; not found." verbose="Include file: &quot;uart.h&quot; not found.">
+            <location file="D:\AVR\PID\PID\POLLER\poller.c" line="4" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;timer.h&quot; not found." verbose="Include file: &quot;timer.h&quot; not found.">
+            <location file="D:\AVR\PID\PID\POLLER\poller.c" line="5" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;timer_cfg.h&quot; not found." verbose="Include file: &quot;timer_cfg.h&quot; not found.">
+            <location file="D:\AVR\PID\PID\POLLER\poller.c" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;avr/io.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;avr/io.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="D:\AVR\PID\PID\POLLER\poller.c" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;avr/interrupt.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;avr/interrupt.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="D:\AVR\PID\PID\POLLER\poller.c" line="8" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;util/delay.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;util/delay.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="D:\AVR\PID\PID\POLLER\poller.c" line="9" column="0"/>
+        </error>
+        <error id="normalCheckLevelConditionExpressions" severity="debug" msg="Analysis of condition expressions is disabled. Use --check-level=exhaustive to enable it." verbose="Analysis of condition expressions is disabled. Use --check-level=exhaustive to enable it." file0="D:/AVR/PID/PID/POLLER/poller.c">
+            <location file="D:\AVR\PID\PID\POLLER\poller.c" line="0" column="0"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:6365:(valueFlow) bailout: valueFlowAfterCondition: pollCounter is changed in conditional block" verbose="valueflow.cpp:6365:(valueFlow) bailout: valueFlowAfterCondition: pollCounter is changed in conditional block" file0="D:/AVR/PID/PID/POLLER/poller.c">
+            <location file="D:\AVR\PID\PID\POLLER\poller.c" line="30" column="1"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:6365:(valueFlow) bailout: valueFlowAfterCondition: pollTimeCounter is changed in conditional block" verbose="valueflow.cpp:6365:(valueFlow) bailout: valueFlowAfterCondition: pollTimeCounter is changed in conditional block" file0="D:/AVR/PID/PID/POLLER/poller.c">
+            <location file="D:\AVR\PID\PID\POLLER\poller.c" line="30" column="1"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:6390:(valueFlow) bailout: possible noreturn scope" verbose="valueflow.cpp:6390:(valueFlow) bailout: possible noreturn scope" file0="D:/AVR/PID/PID/POLLER/poller.c">
+            <location file="D:\AVR\PID\PID\POLLER\poller.c" line="28" column="4"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="poll" lineNumber="16"/>
+    <functiondecl functionName="updatePollCounter" lineNumber="33"/>
+    <functiondecl functionName="poller_Init" lineNumber="37"/>
+    <functiondecl functionName="Poller__StartPolling" lineNumber="42"/>
+    <functiondecl functionName="Poller__StopPolling" lineNumber="46"/>
+    <functiondecl functionName="poller_SetPollTime" lineNumber="51"/>
+    <functioncall functionName="DisplayTemperature"/>
+    <functioncall functionName="PID_Controller"/>
+    <functioncall functionName="SetPWMDutyCycle"/>
+    <functioncall functionName="TC72_CheckSensorState"/>
+    <functioncall functionName="TC72_ReadTemperature"/>
+    <functioncall functionName="Timer_vidInitTimer1"/>
+    <functioncall functionName="Timer_vidSetCallBackTimer1"/>
+    <functioncall functionName="Timer_vidStartTimer1"/>
+    <functioncall functionName="Timer_vidStopTimer1"/>
+    <functioncall functionName="poll"/>
+    <functioncall functionName="time_ms"/>
+    <functioncall functionName="updatePollCounter"/>
+  </FileInfo>
+</analyzerinfo>

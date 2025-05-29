@@ -1,0 +1,7 @@
+[??.??.????]
+1733343241857
+cppcheck-error:5
+cppcheck-warning:0
+cppcheck-style:23
+cppcheck-performance:0
+cppcheck-portability:0

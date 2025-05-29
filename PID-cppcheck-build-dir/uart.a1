@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="9569062364865916860">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;Std_Types.h&quot; not found." verbose="Include file: &quot;Std_Types.h&quot; not found.">
+            <location file="D:\AVR\PID\PID\UART\uart.h" line="3" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="D:\AVR\PID\PID\UART\uart.c" line="2" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;avr/io.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;avr/io.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="D:\AVR\PID\PID\UART\uart.c" line="3" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;avr/interrupt.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;avr/interrupt.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="D:\AVR\PID\PID\UART\uart.c" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;util/delay.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;util/delay.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="D:\AVR\PID\PID\UART\uart.c" line="5" column="0"/>
+        </error>
+        <error id="normalCheckLevelConditionExpressions" severity="debug" msg="Analysis of condition expressions is disabled. Use --check-level=exhaustive to enable it." verbose="Analysis of condition expressions is disabled. Use --check-level=exhaustive to enable it." file0="D:/AVR/PID/PID/UART/uart.c">
+            <location file="D:\AVR\PID\PID\UART\uart.c" line="0" column="0"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:6097:(valueFlow) bailout: variable &apos;*ptr&apos; used in loop" verbose="valueflow.cpp:6097:(valueFlow) bailout: variable &apos;*ptr&apos; used in loop" file0="D:/AVR/PID/PID/UART/uart.c">
+            <location file="D:\AVR\PID\PID\UART\uart.c" line="24" column="17"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:6373:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:6373:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="D:/AVR/PID/PID/UART/uart.c">
+            <location file="D:\AVR\PID\PID\UART\uart.c" line="18" column="33"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:6373:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:6373:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="D:/AVR/PID/PID/UART/uart.c">
+            <location file="D:\AVR\PID\PID\UART\uart.c" line="26" column="5"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="D:/AVR/PID/PID/UART/uart.h:7:6" call-funcname="USART_TransmitString" call-argnr="1" file="D:/AVR/PID/PID/UART/uart.c" line="37" col="22" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="16"/>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="USART_Init" lineNumber="9"/>
+    <functiondecl functionName="USART_TransmitChar" lineNumber="17"/>
+    <functiondecl functionName="USART_TransmitString" lineNumber="22"/>
+    <functiondecl functionName="DisplayTemperature" lineNumber="29"/>
+    <functioncall functionName="USART_TransmitChar"/>
+    <functioncall functionName="USART_TransmitString"/>
+    <functioncall functionName="snprintf"/>
+  </FileInfo>
+        <error id="misra-config" severity="error" msg="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &apos;UCSRA&apos; is unknown" verbose="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &apos;UCSRA&apos; is unknown" file0="D:/AVR/PID/PID/UART/uart.c">
+            <location file="D:\AVR\PID\PID\UART\uart.c" line="18" column="11"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &apos;UDRE&apos; is unknown" verbose="Because of missing configuration, misra checking is incomplete. There can be false negatives! Variable &apos;UDRE&apos; is unknown" file0="D:/AVR/PID/PID/UART/uart.c">
+            <location file="D:\AVR\PID\PID\UART\uart.c" line="18" column="25"/>
+        </error>
+        <error id="misra-c2012-21.6" severity="style" msg="The Standard Library input/output functions shall not be used\011" verbose="The Standard Library input/output functions shall not be used\011" file0="D:/AVR/PID/PID/UART/uart.c">
+            <location file="D:\AVR\PID\PID\UART\uart.c" line="2" column="0"/>
+        </error>
+</analyzerinfo>
